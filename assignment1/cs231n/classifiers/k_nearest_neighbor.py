@@ -83,7 +83,7 @@ class KNearestNeighbor(object):
         #####################################################################
         #                       END OF YOUR CODE                            #
         #####################################################################
-    #print ("dist[1,2] is %d" % dists[1,2])
+    print ("dist[1,2] is %d" % dists[1,2])
     return dists
 
   def compute_distances_one_loop(self, X):
